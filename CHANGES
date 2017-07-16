@@ -1,0 +1,13 @@
+D 4.4 97/05/02 15:33:22 dave 4 3
+Made code ANSI compliant
+Added owner to table name in output
+Dropped support for synonyms
+D 4.3 96/01/04 08:26:55 dave 3 2
+Fixed a typo in the sprintf() on line #157
+Changed the if statement around line #197 to avoid core dumps on some platforms
+  Thanks to srinath@xanadu.miel.mot.com (M.Srinath) for pointing out the aboves
+D 4.2 95/03/08 11:50:13 dave 2 1
+Removed reference to varchar.h
+Created VCMIN and VCMAX macros
+D 4.1 94/03/23 19:40:00 dave 1 0
+Initial version (well, at least as far as SCCS is concerned)

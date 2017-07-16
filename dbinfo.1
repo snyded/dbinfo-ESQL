@@ -1,0 +1,29 @@
+.\"
+.\" @(#) dbinfo.1 4.4  97/05/02 15:33:22
+.\"
+.TH DBINFO 1 "dbinfo 4.4"
+.SH NAME
+dbinfo \- prints the schema of a database table to stdout
+.SH SYNOPSIS
+dbinfo \-d dbname [\-t tabname]
+.SH DESCRIPTION
+.I Dbinfo
+will print schema information for all columns and indexes in an
+Informix database table.
+.SH OPTIONS
+.TP
+.B \-d
+database name
+.TP
+.B \-t
+table name
+.SH NOTES
+.I Dbinfo
+requires that an Informix database engine be installed on the machine
+running it.
+.PP
+If a table name is not specified, the entire database is used.
+.PP
+Wild-card characters may be used in the table name if desired.
+.SH SUPPORT
+Send bug reports to Dave Snyder <dave@snide.com>
